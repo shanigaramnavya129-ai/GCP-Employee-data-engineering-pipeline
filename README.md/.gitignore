@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and service account keys
+credentials/
+secrets/
+service-account-key.json
+*-service-account*.json
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local data files - avoid uploading employee data
+*.csv
+*.xlsx
+*.parquet
+
+# IDE settings
+.vscode/
+.idea/
